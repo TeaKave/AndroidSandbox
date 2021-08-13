@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Sandbox">
         <activity
             android:theme="@style/AppTheme.Wallpaper"
-            android:name=".HomeScreenWallpaperActivity"
+            android:name=".homescreen.HomeScreenWallpaperActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

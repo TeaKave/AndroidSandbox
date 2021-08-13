@@ -1,7 +1,8 @@
-package com.teakave.sandbox
+package com.teakave.sandbox.homescreen
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.teakave.sandbox.R
 
 class HomeScreenWallpaperActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
