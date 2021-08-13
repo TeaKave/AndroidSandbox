@@ -9,6 +9,17 @@
         android:id="@+id/mainFragment"
         android:name="com.teakave.sandbox.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/toTransparencySliderFragment"
+            app:destination="@id/transparencySliderFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/transparencySliderFragment"
+        android:name="com.teakave.sandbox.transparencyslider.TransparencySliderFragment"
+        android:label="TransparencySliderFragment"
+        tools:layout="@layout/fragment_transparency_slider" />
+
 
 </navigation>
